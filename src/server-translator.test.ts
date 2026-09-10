@@ -38,6 +38,7 @@ function jsonResponse(payload: unknown, ok = true, status = 200) {
         status,
         statusText: ok ? 'OK' : 'Server Error',
         url: 'mock',
+        headers: new Headers({ 'content-type': 'application/json' }),
         json: async () => payload,
     };
 }
