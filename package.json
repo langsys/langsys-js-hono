@@ -63,7 +63,7 @@
         "hono": "^4.0.0"
     },
     "dependencies": {
-        "langsys-js-typescript": "^0.4.1"
+        "langsys-js-typescript": "^0.6.5"
     },
     "devDependencies": {
         "@types/node": "^20.19.43",
